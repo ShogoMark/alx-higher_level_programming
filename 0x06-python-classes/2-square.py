@@ -3,7 +3,7 @@
 
 
 class Square:
-    """Defines a class: Square with a private attribute: size and checks Errors"""
+    """Defines class: Square with a private attribute: size and checks"""
 
     def __init__(self, size=0):
         if isinstance(size, int):
