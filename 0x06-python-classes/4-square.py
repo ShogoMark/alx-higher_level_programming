@@ -6,7 +6,7 @@ class Square:
     """Defines class: Square with a private attribute: size and checks"""
 
     def __init__(self, size=0):
-            self.size = size
+        self.size = size
 
     def area(self):
         return (pow(self.__size, 2))
