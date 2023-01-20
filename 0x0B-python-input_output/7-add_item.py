@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Adds all argument to a list and save to file"""
+"""Script that adds all argument to a list and save to file
+"""
 
 from sys import argv
 save_to_json_file = __import__("5-save-to_json_file").save_to_json_file
@@ -14,4 +15,4 @@ my_list = []
 for arg in argv[1:]:
     my_list.append(arg)
 
-save_to_json_file(my_list[], filename)
+save_to_json_file(my_list, filename)
