@@ -11,4 +11,4 @@ class Student:
         self.age = age
 
     def to_json(self, attrs=None):
-        return list(set.intersection(attrs, self))
+        return list(set(self).intersection(attrs))
