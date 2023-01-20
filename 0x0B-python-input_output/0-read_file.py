@@ -4,7 +4,6 @@
 
 def read_file(filename=""):
     """Reads a text file"""
-    filename = input()
 
     with open("filename") as f:
         for line in f:
