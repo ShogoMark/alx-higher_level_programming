@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Scripts that adds all arguments and saves on a list
+"""
 
 import json
 import sys
