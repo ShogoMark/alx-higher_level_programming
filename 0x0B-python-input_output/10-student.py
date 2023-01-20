@@ -11,6 +11,8 @@ class Student:
         self.age = age
 
     def to_json(self, attrs=None):
+        """returns dictionary rep"""
+
         records = list(set(self).intersection(attrs))
         newlist = [attrs[i] for i in records]
     return self.__dict__
