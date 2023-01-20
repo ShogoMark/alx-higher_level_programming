@@ -13,4 +13,4 @@ class Student:
     def to_json(self, attrs=None):
         records = list(set(self).intersection(attrs))
         newlist = [attrs[i] for i in records]
-        print(str(newlist))
+    return self.__dict__
