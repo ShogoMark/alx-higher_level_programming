@@ -1,4 +1,4 @@
-#!/usr/bin/pvthon3
+#!/usr/bin/python3
 
 import json
 import sys
