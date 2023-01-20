@@ -4,8 +4,6 @@
 
 def read_file(filename=""):
     """Reads a text file"""
-    doc = input("")
-    with open(doc) as f:
-        for line in f:
-            file = f.read()
-    print(file)
+
+    with open(filename, "r",) as f:
+        print(f.read())
