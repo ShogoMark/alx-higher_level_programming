@@ -14,6 +14,8 @@ except FileNotFoundError:
 
 
 for arg in argv[1:]:
+    """loops through all the arguments"""
+
     my_list.append(arg)
 
 save_to_json_file(my_list, "add_item.json")
