@@ -3,6 +3,7 @@
 """
 import sys
 
+
 save_to_json_file = __import__("5-save-to_json_file").save_to_json_file
 
 load_from_json_file = __import__("6-load_from_json_file").load_from_json_file
@@ -15,6 +16,7 @@ except FileNotFoundError:
 
 for arg in sys.argv[1:]:
     """loops through all the arguments"""
+
     my_list.append(arg)
 
 save_to_json_file(my_list, "add_item.json")
