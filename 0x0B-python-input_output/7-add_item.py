@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" A scripts that adds all arguments and saves on a list
+""" A script that add all arguments to a Python list and save them to a file
 """
 import sys
 
