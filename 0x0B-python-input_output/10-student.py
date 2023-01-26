@@ -13,6 +13,7 @@ class Student:
     def to_json(self, attrs=None):
         """returns dictionary rep"""
 
-        records = list(set(self).intersection(attrs))
-        newlist = [attrs[i] for i in records]
-    return self.__dict__
+        if (type(attrs) == list and
+                all(type(element) == str for element in attrs)):
+            return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
+        return self.__dict__
